@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Indian Election DAO</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moralis/dist/moralis.js"></script>
+</head>
+<body>
+
+<nav class="container-fluid">
+    <ul>
+        <li><strong>Indian Election DAO</strong></li>
+    </ul>
+    <ul>
+        <li><a href="#dashboard">Dashboard</a></li>
+        <li><a href="#proposals">Proposals</a></li>
+        <li><a href="#voting">Voting</a></li>
+        <li><a href="#faqs">FAQs</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#whitepaper" id="whitepaperBtn">White Paper</a></li>
+        <li><a href="#" role="button" id="connectWalletBtn">Connect Wallet</a></li>
+    </ul>
+</nav>
+
+<main class="container fade-in">
+    <div class="grid">
+        <section id="welcome">
+            <hgroup>
+                <h2>Welcome to Indian Election DAO</h2>
+                <h3>Empowering Democratic Governance</h3>
+            </hgroup>
+            <p>The Indian Election DAO empowers citizens to participate in the democratic process by voting for their politicians and approving funding budgets. Join us to ensure transparency and fairness in governance.</p>
+            <figure>
+                <img src="https://source.unsplash.com/featured/?blockchain,technology" alt="DAO Governance">
+                <figcaption><a href="https://source.unsplash.com/featured/?blockchain,technology" target="_blank">Learn More</a></figcaption>
+            </figure>
+        </section>
+        <section id="voting">
+            <hgroup>
+                <h2>Interactive Voting</h2>
+                <h3>Make Your Vote Count</h3>
+            </hgroup>
+            <p>Participate in real-time voting on proposals. Our interactive voting interface ensures transparency and fairness in decision-making.</p>
+            <figure>
+                <img src="https://source.unsplash.com/featured/?voting,interface" alt="Voting Interface">
+                <figcaption><a href="https://source.unsplash.com/featured/?voting,interface" target="_blank">Learn More</a></figcaption>
+            </figure>
+        </section>
+    </div>
+</main>
+
+<section class="container fade-in" aria-label="Benefits of Blockchain">
+    <article>
+        <hgroup>
+            <h2>Benefits of Blockchain</h2>
+            <h3>Why Blockchain Matters</h3>
+        </hgroup>
+        <p>Blockchain technology offers numerous benefits including enhanced security, decentralization, and transparency. Explore how these advantages can transform industries and governance.</p>
+        <figure>
+            <img src="https://source.unsplash.com/featured/?blockchain,technology" alt="Benefits of Blockchain">
+            <figcaption><a href="https://source.unsplash.com/featured/?blockchain,technology" target="_blank">Learn More</a></figcaption>
+        </figure>
+    </article>
+</section>
+
+<section class="container fade-in" aria-label="Web 3.0 Education">
+    <article>
+        <hgroup>
+            <h2>Web 3.0 Education</h2>
+            <h3>Future of the Internet</h3>
+        </hgroup>
+        <p>Web 3.0 represents the next phase of the internet, featuring decentralized applications, smart contracts, and more. Learn about its impact and how you can get involved.</p>
+        <figure>
+            <img src="https://source.unsplash.com/featured/?web3,technology" alt="Web 3.0 Education">
+            <figcaption><a href="https://source.unsplash.com/featured/?web3,technology" target="_blank">Learn More</a></figcaption>
+        </figure>
+    </article>
+</section>
+
+<section class="container fade-in" aria-label="Fun Facts About Blockchain">
+    <article>
+        <hgroup>
+            <h2>Fun Facts About Blockchain</h2>
+            <h3>Did You Know?</h3>
+        </hgroup>
+        <p>Discover some interesting and fun facts about blockchain and the cryptoverse. From its inception to the latest trends, there's always something new to learn.</p>
+        <figure>
+            <img src="https://source.unsplash.com/featured/?blockchain,facts" alt="Fun Facts About Blockchain">
+            <figcaption><a href="https://source.unsplash.com/featured/?blockchain,facts" target="_blank">Learn More</a></figcaption>
+        </figure>
+    </article>
+</section>
+
+<section class="container fade-in" aria-label="Soulbound Tokens">
+    <article>
+        <hgroup>
+            <h2>The Future of Governance</h2>
+            <h3>Soulbound Tokens as Identity Cards</h3>
+        </hgroup>
+        <p>In the future, the government can issue soulbound tokens that act as identity cards. These tokens, stored in your wallet, will grant you the right to vote and participate in the democratic process. This ensures secure and tamper-proof voting, enhancing the integrity of elections.</p>
+        <figure>
+            <img src="https://source.unsplash.com/featured/?identity,tokens" alt="Soulbound Tokens">
+            <figcaption><a href="https://source.unsplash.com/featured/?identity,tokens" target="_blank">Learn More</a></figcaption>
+        </figure>
+    </article>
+</section>
+
+<section class="container fade-in" aria-label="Skillverse Academy">
+    <article>
+        <hgroup>
+            <h2>Skillverse Academy</h2>
+            <h3>Hands-on Project Training</h3>
+        </hgroup>
+        <p>Skillverse Academy offers US-based hands-on project trainings in blockchain, digital marketing, e-commerce, and more. Enhance your skills with practical learning experiences.</p>
+        <figure>
+            <img src="https://source.unsplash.com/featured/?education,learning" alt="Skillverse Academy">
+            <figcaption><a href="https://source.unsplash.com/featured/?education,learning" target="_blank">Learn More</a></figcaption>
+        </figure>
+        <form class="grid">
+            <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required>
+            <input type="email" id="email" name="email" placeholder="Email Address" aria-label="Email Address" required>
+            <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+        </form>
+    </article>
+</section>
+
+<section class="container fade-in" aria-label="Skillverse Academy DeFi">
+    <article>
+        <hgroup>
+            <h2>Skillverse Academy DeFi</h2>
+            <h3>Decentralized Finance and Education</h3>
+        </hgroup>
+        <p>Skillverse Academy integrates Decentralized Finance (DeFi) solutions to provide innovative and secure financial services for students. Using soulbound tokens for identity verification, students can access exclusive DeFi services tailored to their educational needs.</p>
+        <figure>
+            <img src="https://source.unsplash.com/featured/?defi,blockchain" alt="Skillverse Academy DeFi">
+            <figcaption><a href="https://source.unsplash.com/featured/?defi,blockchain" target="_blank">Learn More</a></figcaption>
+        </figure>
+        <h3>Innovative Financial Solutions</h3>
+        <p>Our DeFi offerings include secure loans, scholarships, and investment opportunities, all managed through blockchain technology. This ensures transparency, security, and accessibility for all students.</p>
+        <h3>Empowering Students</h3>
+        <p>By leveraging DeFi and blockchain, Skillverse Academy aims to democratize education financing, making it easier for students to pursue their dreams without financial barriers.</p>
+    </article>
+</section>
+
+<section class="container fade-in" aria-label="Importance of Decentralization">
+    <article>
+        <hgroup>
+            <h2>Importance of Decentralization</h2>
+            <h3>Why Decentralization Matters</h3>
+        </hgroup>
+        <p>Decentralization is key to creating a fair and transparent system. It removes the need for intermediaries, reduces the risk of corruption, and ensures that power is distributed evenly.</p>
+        <div class="avatar-container">
+            <img src="https://source.unsplash.com/featured/?nft,avatar" alt="NFT Avatar">
+            <div class="avatar-dialogue">
+                <p>"Hey! I'm here to tell you about the amazing benefits of decentralization!"</p>
+            </div>
+        </div>
+    </article>
+</section>
+
+<section class="container fade-in" aria-label="Token Swap">
+    <article>
+        <hgroup>
+            <h2>Token Swap</h2>
+            <h3>Exchange Your Tokens Easily</h3>
+        </hgroup>
+        <p>Use our token swap feature to exchange your tokens effortlessly using the Moralis API.</p>
+        <form id="token-swap-form" class="grid">
+            <input type="text" id="from-token" name="from-token" placeholder="From Token (e.g., ETH)" aria-label="From Token" required>
+            <input type="text" id="to-token" name="to-token" placeholder="To Token (e.g., DAI)" aria-label="To Token" required>
+            <input type="number" id="amount" name="amount" placeholder="Amount" aria-label="Amount" required>
+            <button type="submit" onclick="swapTokens(event)">Swap Tokens</button>
+        </form>
+        <div id="swap-result" class="swap-result"></div>
+    </article>
+</section>
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Indian Election DAO White Paper</h2>
+        <p>Here you can provide a detailed view of the white paper content or a link to download the PDF.</p>
+        <a href="whitepaper.pdf" download class="button">Download PDF</a>
+    </div>
+</div>
+
+<footer class="container fade-in">
+    <small><a href="#dashboard">Dashboard</a> • <a href="#proposals">Proposals</a> • <a href="#voting">Voting</a> • <a href="#faqs">FAQs</a> • <a href="#roadmap">Roadmap</a> • <a href="#whitepaper">White Paper</a></small>
+</footer>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>
