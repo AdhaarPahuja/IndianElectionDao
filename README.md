@@ -1,6 +1,6 @@
 # Indian Election DAO
 
-![Indian Election DAO](https://source.unsplash.com/featured/?blockchain,technology)
+![Indian Election DAO]
 
 ## Introduction
 
