@@ -47,6 +47,15 @@ a {
 button {
     background-color: #03DAC6;
     color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #028a74;
 }
 
 h2, h3 {
@@ -67,8 +76,48 @@ nav ul li a {
     color: #e0e0e0;
     text-decoration: none;
     padding: 10px;
+    transition: color 0.3s ease-in-out;
 }
 
 nav ul li a:hover {
     color: #03DAC6;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #8B0000;
+    color: #e0e0e0;
+}
+
+footer a {
+    color: #03DAC6;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+/* Additional styles for better UX */
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.fade-in {
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
