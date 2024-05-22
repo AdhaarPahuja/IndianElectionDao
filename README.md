@@ -148,13 +148,11 @@ We welcome contributions from the community. To contribute, follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`).
 5. Open a pull request.
 
-## License
+Contributors
+“* [Priyanka Dash](https://github.com/Priyu-dash) * [Neha Garg](https://github.com/neha2820419) * [Shruti](https://github.com/shruti421)”
 
-Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contact
-
-Adhaar Pahuja - [@AdhaarPahuja](https://twitter.com/AdhaarPahuja)
+Free open source project
 
 Project Link: [https://github.com/AdhaarPahuja/IndianElectionDAO](https://github.com/AdhaarPahuja/IndianElectionDAO)
 ```
