@@ -139,6 +139,8 @@ The Skillverse Token (SVT) is an integral part of the Skillverse Academy, provid
 **Smart Contract Address:** `0xYourSkillverseTokenContractAddress`
 
 ## Contributing
+“* [Priyanka Dash](https://github.com/Priyu-dash) * [Neha Garg](https://github.com/neha2820419) * [Shruti](https://github.com/shruti421)”
+
 
 We welcome contributions from the community. To contribute, follow these steps:
 
